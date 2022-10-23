@@ -1,0 +1,33 @@
+.container{
+    padding: 1rem 2rem;
+}
+
+.menu.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.menuheading{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+
+.menuheading>:nth-child(1)
+{
+    color: var(--themeRed);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.menuheading>:nth-child(2),.menuheading>:nth-child(3){
+    font-size: 3rem;
+}
+
+.love{
+    font-size: 3rem;
+    color: var(--themeRed);
+}

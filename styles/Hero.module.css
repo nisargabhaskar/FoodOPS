@@ -1,0 +1,97 @@
+.container{
+   display: flex;
+   position: relative;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    font-size: 1rem;
+
+}
+
+.cherryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 1rem;
+    color: var(--themeRed);
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+.btn{
+    padding: 1rem 2.5rem;
+}
+
+.rightside{
+    position: relative;
+}
+
+.imageContainer{
+    width: 38rem;
+    position: absolute;
+    top: -5rem;
+}
+
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 6rem;
+    background: rgb(59 208 59);
+    color: white;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.Contact:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+}
+
+.Pizza{
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 25rem;
+    width: max-content;
+}
+
+.Pizza>:nth-child(1){
+    width: 6rem;
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.Pizza>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.Pizza:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}

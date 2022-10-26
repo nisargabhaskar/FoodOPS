@@ -30,19 +30,10 @@ export default function Hero() {
                     <Image src={HeroImage} alt="food eating women" layout="intrinsic"/>
                 </div>
                 <div className={css.Contact}>
-                    <span>Contact Us</span>
+                    <span> <a href="tel:+123456789">Contact Us</a></span>
                     <div>
                         <UilPhone color="white"/>
                     </div>
-                </div>
-                <div className={css.Pizza}>
-                    <div>
-                        <Image src={Pizza1} alt="order pizza" objectFit="cover" layout="intrinsic"/>
-                    </div>
-                    <div className={css.details}>
-                        <span>Italian Pizza</span>
-                        <span>₹169</span>
-                    </div>   
                 </div>
             </div>
         </div>

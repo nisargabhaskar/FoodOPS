@@ -1,0 +1,17 @@
+.container{
+    margin: 1rem;
+}
+
+.love{
+    font-size: 2rem;
+    /* color: var(--themeRed); */
+}
+
+.menudisplay{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    color: var(--themeRed);
+}

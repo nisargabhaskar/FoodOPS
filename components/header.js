@@ -25,8 +25,8 @@ export default function Header(){
             {/* menu side */}
             <ul className={css.menu}>
                 <li><Link href='../'>Home</Link></li>
-                <li>Menu</li>
-                <li>Contact</li>
+                <li><Link href='/menu'>Menu</Link></li>
+                <li><a href="tel:+123456789">Contact</a></li>
             </ul>
 
             {/* cart side */}
